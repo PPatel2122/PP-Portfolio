@@ -48,7 +48,7 @@ const Skils = () => {
       id: 6,
       src: nextjs,
       title: "Next JS",
-      style: "shadow-white",
+      style: "shadow-blue-500",
     },
     {
       id: 7,
@@ -72,7 +72,7 @@ const Skils = () => {
       id: 10,
       src: ver,
       title: "Vercal",
-      style: "shadow-white",
+      style: "shadow-gray-400",
     },
     {
       id: 11,
@@ -93,7 +93,7 @@ const Skils = () => {
       name="skils"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
           Skils
