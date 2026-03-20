@@ -61,28 +61,28 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-black">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-white">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 text-white">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
           {portfolios.map(({ id, src, name, link, repo }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105">
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 text-white">
               <img
               
                 src={src}
                 alt="projects"
                 className="rounded-md"
               />
-              <h2 className="w-1/1 px-6 py-3 m+15 ">{name}</h2>
+              <h2 className="w-1/1 px-6 py-3 m+15 text-white ">{name}</h2>
 
               <div className="flex items-center justify-center ">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-white" onClick={ () => window.open(link, '_blank')}>
                 Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-white" onClick={ () => window.open(repo, '_blank')}>
                 GitHub
                 </button>
               </div>
